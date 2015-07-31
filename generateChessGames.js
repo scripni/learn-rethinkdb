@@ -61,10 +61,18 @@ while (gamesToGenerate-- > 0) {
 	});
 }
 
+// record players
+var playerStream = fs.createWriteStream("./data/chessPlayers.json");
+playerStream.once("open", function(_) {
+	playerStream.write(JSON.stringify(players));
+	playerStream.end();
+	console.log("done logging players");
+});
+
 // record games
-var stream = fs.createWriteStream("./data/chessGames.json");
-stream.once("open", function(_) {
-	stream.write(JSON.stringify(games));
-	stream.end();
-	console.log("done");
+var gameStream = fs.createWriteStream("./data/chessGames.json");
+gameStream.once("open", function(_) {
+	gameStream.write(JSON.stringify(games));
+	gameStream.end();
+	console.log("done logging games");
 });
