@@ -4,8 +4,8 @@ var faker = require("faker");
 var fs = require("fs");
 
 // configure dataset
-const averageGamesPerPlayer = 1 << 3;
-const totalPlayersToGenerate = 1 << 3;
+const averageGamesPerPlayer = 1 << 4;
+const totalPlayersToGenerate = 1 << 4;
 
 var gamesToGenerate = totalPlayersToGenerate * averageGamesPerPlayer;
 
