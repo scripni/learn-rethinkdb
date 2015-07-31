@@ -1,0 +1,22 @@
+var artists = {
+	{
+		"name": "Veta Biris",
+		"style": "Massive",
+		"reputation": 9
+	},
+	{
+		"name": "Sofia Vicoveanca",
+		"style": "Tribal",
+		"reputation": 10
+	}
+	{
+		"name": "Furdui Iancu",
+		"style": "Orc",
+		"reputation": 7
+	},
+	{
+		"name": "The Lost Pictures",
+		"style": "Roc",
+		"reputation": 10
+	}
+}

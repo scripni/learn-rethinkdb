@@ -1,0 +1,25 @@
+{
+  "name": "learn-rethinkdb",
+  "version": "0.0.1",
+  "description": "Learning rethinkdb",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scripni/learn-rethinkdb"
+  },
+  "author": "Andrei Scripniciuc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scripni/learn-rethinkdb/issues"
+  },
+  "devDependencies": {
+    "rethinkdb": "~2.0.2"
+  },
+  "dependencies": {
+    "chess.js": "git://github.com/jhlywa/chess.js",
+    "hashset-native": "git://github.com/scripni/node-hashset"
+  }
+}
